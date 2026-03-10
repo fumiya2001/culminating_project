@@ -3,23 +3,20 @@ numpy
 pandas
 matplotlib
 seaborn 
-scipy
 
 # machine learning library
 scikit-learn
-xgboost
-lightgbm
-optuna
 
 # deep learning library
 torch
-torchvision
 
 # NLP library
 transformers
 datasets
 accelerate
 tokenizers
+peft
+bitsandbytes
 
 # japanese NLP library
 fugashi
