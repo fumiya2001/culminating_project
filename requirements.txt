@@ -1,0 +1,30 @@
+# basic data science library
+numpy
+pandas
+matplotlib
+seaborn 
+
+# machine learning library
+scikit-learn
+
+# deep learning library
+torch
+
+# NLP library
+transformers
+datasets
+accelerate
+tokenizers
+peft
+bitsandbytes
+
+# japanese NLP library
+fugashi
+ipadic
+unidic-lite
+sentencepiece
+
+# support 
+tqdm
+spacy
+dotenv
