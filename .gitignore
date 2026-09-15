@@ -1,4 +1,13 @@
 .ipynb_checkpoints/
 outputs/
+html/*
 .env
 reference/*
+__pycache__/*
+
+
+
+
+
+CLAUDE.ja.md
+docker-compose.yml

@@ -2,7 +2,6 @@
 numpy
 pandas
 matplotlib
-seaborn 
 
 # machine learning library
 scikit-learn
@@ -28,3 +27,7 @@ sentencepiece
 tqdm
 spacy
 dotenv
+
+# data construction (GPT-4o fact extraction / paraphrase / QA)
+openai
+requests
