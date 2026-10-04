@@ -1,0 +1,54 @@
+{
+ "model": "Qwen/Qwen2.5-14B",
+ "n_ex": 4,
+ "n_samples": 8,
+ "temperature": 0.5,
+ "n_facts": 4074,
+ "n_inject": 2806,
+ "known": {
+  "en": {
+   "Unknown": 3015,
+   "Known": 1059
+  },
+  "ja": {
+   "Unknown": 3080,
+   "Known": 994
+  }
+ },
+ "cross_en_ja": {
+  "Known": {
+   "Known": 785,
+   "Unknown": 209
+  },
+  "Unknown": {
+   "Known": 274,
+   "Unknown": 2806
+  }
+ },
+ "abstain_rate_greedy": {
+  "en": 0.54,
+  "ja": 0.044
+ },
+ "by_type": {
+  "categorical": {
+   "facts": 1061,
+   "inject": 668,
+   "inject_rate": 0.63
+  },
+  "date": {
+   "facts": 717,
+   "inject": 676,
+   "inject_rate": 0.943
+  },
+  "entity": {
+   "facts": 1917,
+   "inject": 1224,
+   "inject_rate": 0.638
+  },
+  "numerical": {
+   "facts": 379,
+   "inject": 238,
+   "inject_rate": 0.628
+  }
+ }
+}
