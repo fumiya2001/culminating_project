@@ -2,8 +2,10 @@
 outputs/
 html/*
 .env
+.venv
 reference/*
 __pycache__/*
+.vscode/*
 
 
 
@@ -11,3 +13,5 @@ __pycache__/*
 
 CLAUDE.ja.md
 docker-compose.yml
+tutorial.ipynb
+
