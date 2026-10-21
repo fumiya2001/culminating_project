@@ -1,0 +1,90 @@
+{
+ "run_name": "Qwen2.5-14B-base-base-qa4000",
+ "method": "base",
+ "lora_rank": null,
+ "trainable_params": 0,
+ "n_facts": 2806,
+ "judge": "string-match (probe_known.is_correct)",
+ "micro": {
+  "en": {
+   "correct": 0.0,
+   "abstain": 0.9455,
+   "wrong": 0.0545
+  },
+  "ja": {
+   "correct": 0.0,
+   "abstain": 0.057,
+   "wrong": 0.943
+  }
+ },
+ "fact_acc_any": {
+  "en": 0.0,
+  "ja": 0.0
+ },
+ "fact_acc_all": {
+  "en": 0.0,
+  "ja": 0.0
+ },
+ "transfer_score": null,
+ "by_type_acc": {
+  "categorical": {
+   "en": 0.0,
+   "ja": 0.0
+  },
+  "date": {
+   "en": 0.0,
+   "ja": 0.0
+  },
+  "entity": {
+   "en": 0.0,
+   "ja": 0.0
+  },
+  "numerical": {
+   "en": 0.0,
+   "ja": 0.0
+  }
+ },
+ "locality_acc": 0.9933,
+ "n_locality": 150,
+ "forced": {
+  "micro": {
+   "en": {
+    "correct": 0.0011,
+    "abstain": 0.0002,
+    "wrong": 0.9988
+   },
+   "ja": {
+    "correct": 0.0,
+    "abstain": 0.0018,
+    "wrong": 0.9982
+   }
+  },
+  "fact_acc_any": {
+   "en": 0.0021,
+   "ja": 0.0
+  },
+  "transfer_score": 0.0,
+  "by_type_acc": {
+   "categorical": {
+    "en": 0.0015,
+    "ja": 0.0
+   },
+   "date": {
+    "en": 0.0,
+    "ja": 0.0
+   },
+   "entity": {
+    "en": 0.0016,
+    "ja": 0.0
+   },
+   "numerical": {
+    "en": 0.0,
+    "ja": 0.0
+   }
+  },
+  "abstain_to_correct": {
+   "en": 0.0009,
+   "ja": 0.0
+  }
+ }
+}
