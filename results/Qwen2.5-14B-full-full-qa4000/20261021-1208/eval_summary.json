@@ -1,0 +1,90 @@
+{
+ "run_name": "Qwen2.5-14B-full-full-qa4000",
+ "method": "full",
+ "lora_rank": null,
+ "trainable_params": 14770033664,
+ "n_facts": 2806,
+ "judge": "string-match (probe_known.is_correct)",
+ "micro": {
+  "en": {
+   "correct": 0.1638,
+   "abstain": 0.6597,
+   "wrong": 0.1766
+  },
+  "ja": {
+   "correct": 0.1851,
+   "abstain": 0.0069,
+   "wrong": 0.8079
+  }
+ },
+ "fact_acc_any": {
+  "en": 0.216,
+  "ja": 0.2341
+ },
+ "fact_acc_all": {
+  "en": 0.1115,
+  "ja": 0.1361
+ },
+ "transfer_score": 0.6898,
+ "by_type_acc": {
+  "categorical": {
+   "en": 0.0644,
+   "ja": 0.0457
+  },
+  "date": {
+   "en": 0.1435,
+   "ja": 0.1457
+  },
+  "entity": {
+   "en": 0.2439,
+   "ja": 0.2798
+  },
+  "numerical": {
+   "en": 0.0882,
+   "ja": 0.2017
+  }
+ },
+ "locality_acc": 0.6533,
+ "n_locality": 150,
+ "forced": {
+  "micro": {
+   "en": {
+    "correct": 0.2814,
+    "abstain": 0.2749,
+    "wrong": 0.4437
+   },
+   "ja": {
+    "correct": 0.2037,
+    "abstain": 0.0036,
+    "wrong": 0.7928
+   }
+  },
+  "fact_acc_any": {
+   "en": 0.361,
+   "ja": 0.2627
+  },
+  "transfer_score": 0.6022,
+  "by_type_acc": {
+   "categorical": {
+    "en": 0.1699,
+    "ja": 0.0554
+   },
+   "date": {
+    "en": 0.2441,
+    "ja": 0.1494
+   },
+   "entity": {
+    "en": 0.3664,
+    "ja": 0.3125
+   },
+   "numerical": {
+    "en": 0.2626,
+    "ja": 0.2143
+   }
+  },
+  "abstain_to_correct": {
+   "en": 0.1756,
+   "ja": 0.0256
+  }
+ }
+}

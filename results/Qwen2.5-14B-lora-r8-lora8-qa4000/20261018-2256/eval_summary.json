@@ -1,0 +1,90 @@
+{
+ "run_name": "Qwen2.5-14B-lora-r8-lora8-qa4000",
+ "method": "lora",
+ "lora_rank": 8,
+ "trainable_params": 34406400,
+ "n_facts": 2806,
+ "judge": "string-match (probe_known.is_correct)",
+ "micro": {
+  "en": {
+   "correct": 0.0176,
+   "abstain": 0.9029,
+   "wrong": 0.0795
+  },
+  "ja": {
+   "correct": 0.0374,
+   "abstain": 0.1438,
+   "wrong": 0.8188
+  }
+ },
+ "fact_acc_any": {
+  "en": 0.0314,
+  "ja": 0.0535
+ },
+ "fact_acc_all": {
+  "en": 0.0039,
+  "ja": 0.0214
+ },
+ "transfer_score": 0.3523,
+ "by_type_acc": {
+  "categorical": {
+   "en": 0.0082,
+   "ja": 0.006
+  },
+  "date": {
+   "en": 0.0259,
+   "ja": 0.051
+  },
+  "entity": {
+   "en": 0.0212,
+   "ja": 0.04
+  },
+  "numerical": {
+   "en": 0.0021,
+   "ja": 0.0735
+  }
+ },
+ "locality_acc": 0.7533,
+ "n_locality": 150,
+ "forced": {
+  "micro": {
+   "en": {
+    "correct": 0.0998,
+    "abstain": 0.0036,
+    "wrong": 0.8967
+   },
+   "ja": {
+    "correct": 0.0519,
+    "abstain": 0.0007,
+    "wrong": 0.9474
+   }
+  },
+  "fact_acc_any": {
+   "en": 0.1518,
+   "ja": 0.0723
+  },
+  "transfer_score": 0.2817,
+  "by_type_acc": {
+   "categorical": {
+    "en": 0.0599,
+    "ja": 0.0135
+   },
+   "date": {
+    "en": 0.0939,
+    "ja": 0.0555
+   },
+   "entity": {
+    "en": 0.1279,
+    "ja": 0.065
+   },
+   "numerical": {
+    "en": 0.084,
+    "ja": 0.0819
+   }
+  },
+  "abstain_to_correct": {
+   "en": 0.0872,
+   "ja": 0.0186
+  }
+ }
+}
